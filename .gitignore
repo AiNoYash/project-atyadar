@@ -1,0 +1,34 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+
+# Large Model Weights (>50MB)
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.onnx
+
+# Large Dataset Archives (>50MB) and Extracted Images
+*.zip
+!Phase2_GPU_Trainer.zip
+faces_512/
+Indian_Face_Masks_512/
+Indian_Face_Sketches_Augmented/
+checkpoints/
+
+# External Submodules / Repositories
+CodeFormer/
+
+# Jupyter & Colab Checkpoints
+.ipynb_checkpoints/
+
+# Temporary / Bridge Files
+colab_cmd.json
+colab_out.json

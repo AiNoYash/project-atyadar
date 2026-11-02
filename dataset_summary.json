@@ -1,0 +1,36 @@
+{
+  "dataset_name": "Indian_Suspect_Face_Composite_Dataset",
+  "resolution": "512x512",
+  "total_identities": 2000,
+  "total_paired_samples": 6000,
+  "splits": {
+    "train": {
+      "identities": 1600,
+      "samples": 4800
+    },
+    "validation": {
+      "identities": 200,
+      "samples": 600
+    },
+    "test": {
+      "identities": 200,
+      "samples": 600
+    }
+  },
+  "sketch_styles": {
+    "original": 2000,
+    "rough_wobble": 2000,
+    "faded_pencil": 2000
+  },
+  "modalities_included": [
+    "target_image_512x512",
+    "conditioning_sketch_augmented",
+    "forensic_text_prompt",
+    "raw_19class_semantic_mask",
+    "nose_part_mask",
+    "eyes_brows_part_mask",
+    "mouth_lips_part_mask",
+    "hair_part_mask",
+    "face_skin_part_mask"
+  ]
+}
