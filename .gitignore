@@ -32,3 +32,8 @@ CodeFormer/
 # Temporary / Bridge Files
 colab_cmd.json
 colab_out.json
+
+
+# Adaface
+AdaFace/.adaenv
+AdaFace/adaface_ir50_ms1mv2.ckpt
